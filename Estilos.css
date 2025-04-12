@@ -1,0 +1,46 @@
+body{
+    background-color: lightskyblue;
+    font-family: Arial, sans-serif;
+    
+}
+
+header{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    padding-left: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#In{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.article{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    line-height: 0.5; 
+    padding-bottom: 30px;
+}
+
+
+
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: 5px auto;
+    width: 80%;
+}
