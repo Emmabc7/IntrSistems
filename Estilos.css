@@ -13,6 +13,9 @@ header{
     width: 80%;
     padding-left: 40px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    animation-name: changeColor;
+    animation-duration: 15s;
+    animation-timing-function: linear;
 }
 
 #In{
@@ -32,9 +35,22 @@ header{
     width: 80%;
     line-height: 0.5; 
     padding-bottom: 30px;
+    transition: background 0.3s linear;
 }
 
+.article:hover{
+    background: rgb(255, 97, 97);
+}
 
+@keyframes changeColor {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: rgb(255, 255, 0);
+    }
+    
+}
 
 footer{
     background: black;
