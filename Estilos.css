@@ -14,7 +14,7 @@ header{
     padding-left: 40px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     animation-name: changeColor;
-    animation-duration: 50s;
+    animation-duration: 120s;
     animation-timing-function: linear;
 }
 
