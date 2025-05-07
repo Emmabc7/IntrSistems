@@ -1,0 +1,103 @@
+
+/*fondo*/
+body{
+    background-color: lightskyblue;
+    font-family: Arial, sans-serif;
+    
+}
+/*cuadro principal*/
+
+header{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px auto;
+    width: 81%;
+    
+}
+/*cuadro indice*/
+
+#In{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/*cuadritos de las paginas*/
+
+.article{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    line-height: 0.5; 
+    padding-bottom: 20px;
+    transition: background 0.3s linear;
+}
+
+/*cambiar el color cuando pase el mouse*/
+
+.article:hover{
+    background: rgb(255, 97, 97);
+}
+
+/* pie de pagina */
+
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: 5px auto;
+    width: 80%;
+}
+
+/*Boton Regresar*/
+
+#Regre{
+    margin-left: 65px;
+    text-align: left;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 15%;
+}
+
+/*Pagina 1*/
+
+.CuadroPag1{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    height: 500px;
+}
+
+/*Pagina 2*/
+
+.CuadroPag2{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    height: 500px;
+}
+
+/*Pagina 3*/
+
+.CuadroPag3{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    height: 500px;
+}
+
